@@ -1,0 +1,417 @@
+{
+    "navbar": {
+        "tabs": {
+            "about": "自己紹介",
+            "experiences": "経歴",
+            "projects": "プロジェクト",
+            "education": "学歴",
+            "blog": "ブログ"
+        },
+        "logoAriaLabel": "カミロのロゴ",
+        "menuAriaLabel": "メニュー"
+    },
+    "shared": {
+        "locale": {
+            "en": "English",
+            "es": "Español",
+            "fr": "Français",
+            "ja": "日本語",
+            "ar": "العربية",
+            "esCO": "Español (CO)",
+            "esAR": "Español (AR)"
+        },
+        "themeSelector": {
+            "ariaLabel": "テーマを変更",
+            "menuTitle": "テーマ"
+        },
+        "themes": {
+            "light": "ライト",
+            "winter": "ウィンター",
+            "dark": "ダーク",
+            "night": "ナイト",
+            "luxury": "ラグジュアリー",
+            "cyberpunk": "サイバーパンク",
+            "aqua": "アクア",
+            "retro": "レトロ",
+            "unsc": "UNSC",
+            "covenant": "Covenant",
+            "forerunner": "Forerunner",
+            "witcher3": "The Witcher 3",
+            "arasaka-corp": "Arasaka Corp",
+            "cyberpunk-official": "Cyberpunk 公式"
+        }
+    },
+    "experience": {
+        "title": "職務経歴",
+        "subtitle": "フリーランスとしてのキャリアの始まりから、現在のシニア開発者としての役割まで、私のウェブ開発における専門的な歩み。",
+        "card": {
+            "current": "現在",
+            "viewDetails": "詳細を見る →"
+        },
+        "modal": {
+            "context": "背景",
+            "responsibilities": "職務内容と実績",
+            "technologies": "使用技術",
+            "previous": "前へ",
+            "next": "次へ"
+        },
+        "jobs": {
+            "job1": {
+                "title": "シニアフロントエンド開発者",
+                "briefDescription": "ReactとTypeScriptを使用して最新のWebアプリケーション開発を主導し、ユーザーエクスペリエンスの向上とパフォーマンスの最適化に取り組んでいます。",
+                "context": "8人の開発者からなるアジャイルチームの一員として、5万人以上のアクティブユーザーに利用されているSaaSプラットフォームで働いています。直感的なユーザーインターフェースの作成と高いコード品質基準の維持に注力しています。",
+                "responsibilities": [
+                    "開発時間を40%削減した再利用可能なReactコンポーネントを12個開発・保守",
+                    "JavaScriptからTypeScriptへの移行を主導し、本番環境でのエラーを25%削減",
+                    "読み込み時間を35%改善するパフォーマンス最適化を実装",
+                    "3人のジュニア開発者にフロントエンドのベストプラクティスを指導",
+                    "UX/UIチームと緊密に連携し、ピクセルパーフェクトなデザインを実装",
+                    "コードカバレッジを85%に向上させる自動テストプロセスを確立"
+                ]
+            },
+            "job2": {
+                "title": "フルスタック開発者",
+                "briefDescription": "最新技術とアジャイル手法を用いて、フロントエンドからバックエンドまで完全なWebアプリケーションを開発しました。",
+                "context": "急成長中のスタートアップで、eコマースから教育プラットフォームまで、さまざまなクライアント向けの複数のMVP製品開発に参加しました。",
+                "responsibilities": [
+                    "ReactとNode.jsを使用して8つの完全なWebアプリケーションをゼロから構築",
+                    "毎分最大10,000リクエストをサポートするRESTful APIを設計・実装",
+                    "50万ユーロ以上の取引を処理した決済システム（Stripe、PayPal）を統合",
+                    "MongoDBデータベースを最適化し、クエリ時間を50%削減",
+                    "JWTとOAuthによる安全な認証・認可を実装",
+                    "チームの主要開発者としてScrumセレモニーに積極的に参加"
+                ]
+            },
+            "job3": {
+                "title": "ジュニアフロントエンド開発者",
+                "briefDescription": "レスポンシブなウェブサイトを開発し、フロントエンド開発のベストプラクティスを学びながらプロとしてのキャリアをスタートしました。",
+                "context": "中小企業向けのブランディングとウェブ開発を専門とするデジタルエージェンシーで、開発者として急速に成長できる多様なプロジェクトに取り組みました。",
+                "responsibilities": [
+                    "HTML、CSS、Vanilla JavaScriptを使用して25以上のレスポンシブウェブサイトを開発",
+                    "15以上のPhotoshopおよびSketchデザインをピクセルパーフェクトなHTML/CSSコードに変換",
+                    "ユーザーインタラクションを向上させるCSSおよびJavaScriptアニメーションを実装",
+                    "SEOのためにウェブサイトを最適化し、PageSpeed Insightsで平均60%の改善を達成",
+                    "提案の技術的実現可能性を確保するためデザイナーと協力",
+                    "既存のウェブサイトに新機能を追加し、保守・更新"
+                ]
+            },
+            "job4": {
+                "title": "フリーランスウェブ開発者",
+                "briefDescription": "小規模ビジネス向けの独立したウェブプロジェクトを開発し、クライアント管理と完全な開発サイクルの経験を積みました。",
+                "context": "プロのウェブ開発への移行期間中、ポートフォリオを構築し、実際のクライアントとの実務経験を積むためにフリーランサーとして働きました。",
+                "responsibilities": [
+                    "小規模ビジネスや起業家向けに12のウェブプロジェクトを完了",
+                    "初期相談からローンチまでの開発サイクル全体を管理",
+                    "平均でクライアントのトラフィックを45%増加させたモバイル最適化サイトを作成",
+                    "WooCommerceとShopifyを使用して基本的なeコマースソリューションを実装",
+                    "クライアントに継続的な技術サポートとメンテナンスを提供",
+                    "クライアントと直接協力し、コミュニケーションおよびプロジェクト管理スキルを習得"
+                ]
+            }
+        }
+    },
+    "projectsPage": {
+        "header": {
+            "title": "私のプロジェクト",
+            "subtitle": "様々な分野や技術における私の仕事のポートフォリオをご覧ください。"
+        },
+        "buttons": {
+            "loading": "読み込み中...",
+            "loadMore": "さらにプロジェクトを読み込む"
+        },
+        "filterBar": {
+            "title": "フィルター",
+            "searchPlaceholder": "タイトル、説明、技術で検索...",
+            "areaLabel": "分野/業界",
+            "roleLabel": "私の役割",
+            "technologiesLabel": "技術",
+            "clearButton": "フィルターをクリア"
+        },
+        "emptyState": {
+            "title": "プロジェクトが見つかりませんでした",
+            "message": "現在のフィルターに一致するプロジェクトが見つかりませんでした。検索条件を変更してみてください。",
+            "searchLabel": "検索",
+            "areaLabel": "分野",
+            "roleLabel": "役割",
+            "technologiesLabel": "技術",
+            "resetButton": "フィルターをリセット"
+        },
+        "projectCard": {
+            "viewDetails": "詳細を見る"
+        },
+        "projectModal": {
+            "closeAriaLabel": "モーダルを閉じる",
+            "descriptionTitle": "プロジェクトの説明",
+            "viewLiveButton": "ライブ版を見る",
+            "viewCodeButton": "コードを見る"
+        }
+    },
+    "educationPage": {
+        "header": {
+            "title": "学歴と資格",
+            "subtitle": "私の専門資格、継続的な学習、そして正式な学歴の完全な概要です。"
+        },
+        "sections": {
+            "certifications": "専門資格",
+            "courses": "コースと継続学習",
+            "education": "学歴"
+        },
+        "recentCredentials": {
+            "title": "最近完了"
+        },
+        "sidebar": {
+            "toggleButton": "セクション",
+            "lastUpdated": "最終更新日"
+        },
+        "skills": {
+            "title": "技術スキル"
+        },
+        "certificationCard": {
+            "statusActive": "有効",
+            "statusExpired": "期限切れ",
+            "viewButton": "資格証明を見る"
+        },
+        "courseCard": {
+            "viewButton": "証明書を見る"
+        },
+        "educationCard": {
+            "achievements": "実績"
+        }
+    },
+    "blogPage": {
+        "header": {
+            "title": "ブログ",
+            "subtitle": "ウェブ開発、デザイン、テクノロジーに関する考察、ストーリー、アイデア。"
+        },
+        "sidebar": {
+            "tabs": {
+                "all": "すべての投稿",
+                "favorites": "お気に入り"
+            },
+            "search": {
+                "placeholder": "記事を検索..."
+            },
+            "topics": {
+                "title": "トピックで絞り込む",
+                "clear": "すべてクリア"
+            },
+            "featured": {
+                "title": "注目の投稿"
+            }
+        },
+        "mainContent": {
+            "empty": {
+                "title": "投稿が見つかりません",
+                "message": "検索またはフィルターを調整して、お探しのものを見つけてください。"
+            },
+            "pagination": {
+                "loadMore": "もっと読み込む",
+                "loading": "読み込み中..."
+            }
+        },
+        "card": {
+            "new": "新規",
+            "readingTime": "読了時間: {{minutes}}分",
+            "views": "{{count}}ビュー",
+            "ariaLabels": {
+                "addToFavorites": "お気に入りに追加",
+                "removeFromFavorites": "お気に入りから削除"
+            }
+        }
+    },
+    "blogPostPage": {
+        "header": {
+            "readingTime": "読了時間: {{minutes}}分",
+            "views": "{{count}}ビュー",
+            "writtenBy": "作成者",
+            "authorName": "カミロ・ボラーニョス",
+            "favoriteButton": "お気に入り",
+            "shareButton": "共有",
+            "ariaLabels": {
+                "addToFavorites": "お気に入りに追加",
+                "removeFromFavorites": "お気に入りから削除",
+                "share": "記事を共有"
+            }
+        },
+        "content": {
+            "copyCode": "コピー",
+            "copied": "コピーしました！"
+        },
+        "navigation": {
+            "previous": "前の記事",
+            "next": "次の記事"
+        },
+        "sidebar": {
+            "tocTitle": "目次",
+            "relatedTitle": "関連記事"
+        },
+        "mobileToc": {
+            "title": "目次"
+        },
+        "share": {
+            "linkCopied": "リンクをクリップボードにコピーしました！",
+            "error": "リンクの共有またはコピーができませんでした。"
+        },
+        "notFound": {
+            "title": "記事が見つかりません",
+            "message": "申し訳ありませんが、お探しの記事は存在しないか、削除されたか、URLが間違っています。",
+            "button": "すべてのブログ記事へ"
+        }
+    },
+    "homePage": {
+        "sections": {
+            "projects": "注目の<1>プロジェクト</1>",
+            "experience": "職務経歴",
+            "skills": "スキル",
+            "aboutMe": "自己紹介"
+        },
+        "hero": {
+            "badge": "お仕事募集中",
+            "greeting": "こんにちは、カミロです",
+            "description": "ソフトウェア開発とデータエンジニアリングで5年以上の経験。<1>コロンビアのボヤカを拠点に</1>、ユニークなWebアプリケーションの開発を専門としています。🇨🇴",
+            "contactButton": "お問い合わせ",
+            "linkedinButton": "LinkedIn"
+        },
+        "projects": {
+            "subtitle": "私の最も影響力のある仕事を選りすぐり、アイデアを現実に変える革新的なソリューションと卓越したデジタル体験を紹介します。",
+            "codeButton": "コード",
+            "previewButton": "プレビュー",
+            "viewAllButton": "すべてのプロジェクトを見る"
+        },
+        "experience": {
+            "learnMore": "さらに詳しく",
+            "viewAllButton": "すべての経歴を見る"
+        },
+        "skills": {
+            "subtitle": "現代の開発を推進するツールと方法論を習得",
+            "categories": {
+                "languages": "言語",
+                "frameworks": "フレームワークとライブラリ",
+                "tools": "ツールとプラットフォーム",
+                "methodologies": "方法論"
+            },
+            "cta": {
+                "question": "私の学歴と資格をご覧になりますか？",
+                "action": "資格情報を探す →"
+            },
+            "items": {
+                "javascript": {
+                    "name": "JavaScript",
+                    "description": "Webおよびアプリケーション開発のための汎用プログラミング言語"
+                },
+                "typescript": {
+                    "name": "TypeScript",
+                    "description": "より堅牢な開発のためのJavaScriptの型付きスーパーセット"
+                },
+                "python": {
+                    "name": "Python",
+                    "description": "バックエンド開発とデータサイエンスのためのプログラミング言語"
+                },
+                "html5": {
+                    "name": "HTML5",
+                    "description": "Webコンテンツを構造化するための標準マークアップ言語"
+                },
+                "css3": {
+                    "name": "CSS3",
+                    "description": "Webページをデザインおよびフォーマットするためのスタイルシート言語"
+                },
+                "sql": {
+                    "name": "SQL",
+                    "description": "データベース管理のための構造化クエリ言語"
+                },
+                "react": {
+                    "name": "React",
+                    "description": "インタラクティブなユーザーインターフェースを構築するためのJavaScriptライブラリ"
+                },
+                "nextjs": {
+                    "name": "Next.js",
+                    "description": "本番環境向けWebアプリケーションのためのReactフレームワーク"
+                },
+                "nodejs": {
+                    "name": "Node.js",
+                    "description": "サーバーサイドのためのJavaScript実行環境"
+                },
+                "expressjs": {
+                    "name": "Express.js",
+                    "description": "Node.jsのための最小限のWebフレームワーク"
+                },
+                "tailwindcss": {
+                    "name": "Tailwind CSS",
+                    "description": "迅速でカスタマイズ可能なデザインのためのユーティリティファーストCSSフレームワーク"
+                },
+                "reactNative": {
+                    "name": "React Native",
+                    "description": "ネイティブモバイルアプリケーションを開発するためのフレームワーク"
+                },
+                "git": {
+                    "name": "Git",
+                    "description": "分散型バージョン管理システム"
+                },
+                "docker": {
+                    "name": "Docker",
+                    "description": "アプリケーションのためのコンテナ化プラットフォーム"
+                },
+                "aws": {
+                    "name": "AWS",
+                    "description": "Amazonのクラウドコンピューティングサービス"
+                },
+                "vscode": {
+                    "name": "VS Code",
+                    "description": "高度でカスタマイズ可能なソースコードエディタ"
+                },
+                "mongodb": {
+                    "name": "MongoDB",
+                    "description": "ドキュメント指向のNoSQLデータベース"
+                },
+                "postgresql": {
+                    "name": "PostgreSQL",
+                    "description": "高度なリレーショナルデータベース管理システム"
+                },
+                "figma": {
+                    "name": "Figma",
+                    "description": "ユーザーインターフェースのための共同デザインツール"
+                },
+                "vercel": {
+                    "name": "Vercel",
+                    "description": "フロントエンドアプリケーションのためのデプロイメントプラットフォーム"
+                },
+                "agileScrum": {
+                    "name": "アジャイル/スクラム",
+                    "description": "ソフトウェアプロジェクト管理のためのアジャイル方法論"
+                },
+                "tdd": {
+                    "name": "TDD",
+                    "description": "より信頼性の高いコードのためのテスト駆動開発"
+                },
+                "cicd": {
+                    "name": "CI/CD",
+                    "description": "自動化のための継続的インテグレーションと継続的デプロイメント"
+                },
+                "designThinking": {
+                    "name": "デザイン思考",
+                    "description": "問題解決のためのユーザー中心のプロセス"
+                },
+                "cleanCode": {
+                    "name": "クリーンコード",
+                    "description": "クリーンで保守性の高いコードを書くための原則"
+                },
+                "restApis": {
+                    "name": "REST API",
+                    "description": "スケーラブルで効率的なWebサービスのためのアーキテクチャ"
+                }
+            }
+        },
+        "aboutMe": {
+            "p1": "カミロです！10歳の時にAmstradでプログラミングを始めました。現在は<strong>多国籍企業で開発チームを率いています</strong>。",
+            "p2": "私の成功事例には、<strong>Mozillaと協力して彼らのFirefoxOSシステム向けの最初のアプリを開発したこと</strong>が含まれます。今日ではもうありませんが、それはWeb開発の世界における大きな進歩でした。",
+            "p3": "コンテンツクリエーターとして、<strong>Twitchの<em>Software & Game Development</em>カテゴリで世界で最も視聴されているスペイン語チャンネルを運営しています</strong>。私の目標は、ヒスパニックコミュニティの雇用可能性と質の高いコンテンツへのアクセスを向上させることです。"
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} <1>Nimutech</1>. ほぼ全著作権所有",
+        "links": {
+            "about": "自己紹介",
+            "contact": "お問い合わせ"
+        }
+    }
+}

@@ -1,0 +1,417 @@
+{
+    "navbar": {
+        "tabs": {
+            "about": "Sobre mí",
+            "experiences": "Experiencia",
+            "projects": "Proyectos",
+            "education": "Educación",
+            "blog": "Blog"
+        },
+        "logoAriaLabel": "Logo de Camilo",
+        "menuAriaLabel": "Menú"
+    },
+    "shared": {
+        "locale": {
+            "en": "English",
+            "es": "Español",
+            "fr": "Français",
+            "ja": "日本語",
+            "ar": "العربية",
+            "esCO": "Español (CO)",
+            "esAR": "Español (AR)"
+        },
+        "themeSelector": {
+            "ariaLabel": "Cambiar Tema",
+            "menuTitle": "Tema"
+        },
+        "themes": {
+            "light": "Claro",
+            "winter": "Invierno",
+            "dark": "Oscuro",
+            "night": "Noche",
+            "luxury": "Lujo",
+            "cyberpunk": "Cyberpunk",
+            "aqua": "Agua",
+            "retro": "Retro",
+            "unsc": "UNSC",
+            "covenant": "Covenant",
+            "forerunner": "Forerunner",
+            "witcher3": "The Witcher 3",
+            "arasaka-corp": "Arasaka Corp",
+            "cyberpunk-official": "Cyberpunk Oficial"
+        }
+    },
+    "experience": {
+        "title": "Experiencia Laboral",
+        "subtitle": "Mi trayectoria profesional en el desarrollo web, desde mis inicios como freelancer hasta mi rol actual como desarrollador senior.",
+        "card": {
+            "current": "Actual",
+            "viewDetails": "Ver detalles completos →"
+        },
+        "modal": {
+            "context": "Contexto",
+            "responsibilities": "Responsabilidades y Logros",
+            "technologies": "Tecnologías",
+            "previous": "Anterior",
+            "next": "Siguiente"
+        },
+        "jobs": {
+            "job1": {
+                "title": "Desarrollador Frontend Senior",
+                "briefDescription": "Lidero el desarrollo de aplicaciones web modernas con React y TypeScript, mejorando la experiencia de usuario y optimizando el rendimiento.",
+                "context": "Como parte de un equipo ágil de 8 desarrolladores, trabajo en una plataforma SaaS utilizada por más de 50,000 usuarios activos. Me enfoco en crear interfaces de usuario intuitivas y mantener altos estándares de calidad de código.",
+                "responsibilities": [
+                    "Desarrollé y mantuve 12 componentes React reutilizables que redujeron el tiempo de desarrollo en un 40%",
+                    "Lideré la migración de JavaScript a TypeScript, reduciendo los errores de producción en un 25%",
+                    "Implementé optimizaciones de rendimiento que mejoraron los tiempos de carga en un 35%",
+                    "Mentoricé a 3 desarrolladores junior en mejores prácticas de frontend",
+                    "Colaboré estrechamente con el equipo de UX/UI para implementar diseños pixel-perfect",
+                    "Establecí procesos de testing automatizado que aumentaron la cobertura de código al 85%"
+                ]
+            },
+            "job2": {
+                "title": "Desarrollador Full Stack",
+                "briefDescription": "Desarrollé aplicaciones web completas desde el frontend hasta el backend, trabajando con tecnologías modernas y metodologías ágiles.",
+                "context": "En una startup de rápido crecimiento, participé en el desarrollo de múltiples productos MVP para diferentes clientes, desde e-commerce hasta plataformas educativas.",
+                "responsibilities": [
+                    "Construí 8 aplicaciones web completas desde cero usando React y Node.js",
+                    "Diseñé e implementé APIs RESTful que soportan hasta 10,000 requests por minuto",
+                    "Integré sistemas de pago (Stripe, PayPal) que procesaron más de €500K en transacciones",
+                    "Optimicé bases de datos MongoDB reduciendo los tiempos de consulta en un 50%",
+                    "Implementé autenticación y autorización segura con JWT y OAuth",
+                    "Participé activamente en ceremonias Scrum como desarrollador clave del equipo"
+                ]
+            },
+            "job3": {
+                "title": "Desarrollador Frontend Junior",
+                "briefDescription": "Comencé mi carrera profesional desarrollando sitios web responsivos y aprendiendo las mejores prácticas del desarrollo frontend.",
+                "context": "En una agencia digital especializada en branding y desarrollo web para pequeñas y medianas empresas, trabajé en proyectos diversos que me permitieron crecer rápidamente como desarrollador.",
+                "responsibilities": [
+                    "Desarrollé más de 25 sitios web responsivos usando HTML, CSS y JavaScript vanilla",
+                    "Convertí 15+ diseños de Photoshop y Sketch a código HTML/CSS pixel-perfect",
+                    "Implementé animaciones CSS y JavaScript que mejoraron la interacción del usuario",
+                    "Optimicé sitios web para SEO logrando mejoras promedio del 60% en PageSpeed Insights",
+                    "Colaboré con diseñadores para asegurar la viabilidad técnica de las propuestas",
+                    "Mantuve y actualicé sitios web existentes con nuevas funcionalidades"
+                ]
+            },
+            "job4": {
+                "title": "Desarrollador Web Freelance",
+                "briefDescription": "Desarrollé proyectos web independientes para pequeños negocios, adquiriendo experiencia en gestión de clientes y desarrollo completo.",
+                "context": "Durante mi transición al desarrollo web profesional, trabajé como freelancer para construir mi portafolio y ganar experiencia práctica con clientes reales.",
+                "responsibilities": [
+                    "Completé 12 proyectos web para pequeños negocios y emprendedores",
+                    "Gestioné todo el ciclo de desarrollo desde la consulta inicial hasta el lanzamiento",
+                    "Creé sitios web optimizados para móviles que aumentaron el tráfico de clientes en promedio 45%",
+                    "Implementé soluciones de e-commerce básico usando WooCommerce y Shopify",
+                    "Proporcioné soporte técnico y mantenimiento continuo a los clientes",
+                    "Desarrollé habilidades de comunicación y gestión de proyectos trabajando directamente con clientes"
+                ]
+            }
+        }
+    },
+    "projectsPage": {
+        "header": {
+            "title": "Mis Proyectos",
+            "subtitle": "Explora mi portafolio de trabajos en diversas áreas y tecnologías."
+        },
+        "buttons": {
+            "loading": "Cargando...",
+            "loadMore": "Cargar Más Proyectos"
+        },
+        "filterBar": {
+            "title": "Filtrar",
+            "searchPlaceholder": "Buscar por título, descripción, tecnología...",
+            "areaLabel": "Área/Industria",
+            "roleLabel": "Mi Rol",
+            "technologiesLabel": "Tecnologías",
+            "clearButton": "Limpiar Filtros"
+        },
+        "emptyState": {
+            "title": "No se encontraron proyectos",
+            "message": "No pudimos encontrar ningún proyecto que coincida con tus filtros actuales. Intenta ajustar los criterios de búsqueda.",
+            "searchLabel": "Búsqueda",
+            "areaLabel": "Área",
+            "roleLabel": "Rol",
+            "technologiesLabel": "Tecnologías",
+            "resetButton": "Reiniciar Filtros"
+        },
+        "projectCard": {
+            "viewDetails": "Ver Detalles"
+        },
+        "projectModal": {
+            "closeAriaLabel": "Cerrar modal",
+            "descriptionTitle": "Descripción del Proyecto",
+            "viewLiveButton": "Ver en Vivo",
+            "viewCodeButton": "Ver Código"
+        }
+    },
+    "educationPage": {
+        "header": {
+            "title": "Educación y Certificaciones",
+            "subtitle": "Un resumen completo de mis cualificaciones profesionales, aprendizaje continuo y formación académica formal."
+        },
+        "sections": {
+            "certifications": "Certificaciones Profesionales",
+            "courses": "Cursos y Aprendizaje Continuo",
+            "education": "Educación Formal"
+        },
+        "recentCredentials": {
+            "title": "Completado Recientemente"
+        },
+        "sidebar": {
+            "toggleButton": "Secciones",
+            "lastUpdated": "Última actualización"
+        },
+        "skills": {
+            "title": "Habilidades Técnicas"
+        },
+        "certificationCard": {
+            "statusActive": "Activa",
+            "statusExpired": "Expirada",
+            "viewButton": "Ver Credencial"
+        },
+        "courseCard": {
+            "viewButton": "Ver Certificado"
+        },
+        "educationCard": {
+            "achievements": "Logros"
+        }
+    },
+    "blogPage": {
+        "header": {
+            "title": "Blog",
+            "subtitle": "Pensamientos, historias e ideas sobre desarrollo web, diseño y tecnología."
+        },
+        "sidebar": {
+            "tabs": {
+                "all": "Todos los Posts",
+                "favorites": "Mis Favoritos"
+            },
+            "search": {
+                "placeholder": "Buscar posts..."
+            },
+            "topics": {
+                "title": "Filtrar por Temas",
+                "clear": "Limpiar Todo"
+            },
+            "featured": {
+                "title": "Posts Destacados"
+            }
+        },
+        "mainContent": {
+            "empty": {
+                "title": "No se encontraron posts",
+                "message": "Intenta ajustar tu búsqueda o filtro para encontrar lo que buscas."
+            },
+            "pagination": {
+                "loadMore": "Cargar Más",
+                "loading": "Cargando..."
+            }
+        },
+        "card": {
+            "new": "Nuevo",
+            "readingTime": "{{minutes}} min de lectura",
+            "views": "{{count}} vistas",
+            "ariaLabels": {
+                "addToFavorites": "Añadir a favoritos",
+                "removeFromFavorites": "Quitar de favoritos"
+            }
+        }
+    },
+    "blogPostPage": {
+        "header": {
+            "readingTime": "{{minutes}} min de lectura",
+            "views": "{{count}} vistas",
+            "writtenBy": "Escrito por",
+            "authorName": "Camilo Bolaños",
+            "favoriteButton": "Favorito",
+            "shareButton": "Compartir",
+            "ariaLabels": {
+                "addToFavorites": "Añadir a favoritos",
+                "removeFromFavorites": "Quitar de favoritos",
+                "share": "Compartir post"
+            }
+        },
+        "content": {
+            "copyCode": "Copiar",
+            "copied": "¡Copiado!"
+        },
+        "navigation": {
+            "previous": "Post Anterior",
+            "next": "Post Siguiente"
+        },
+        "sidebar": {
+            "tocTitle": "Tabla de Contenidos",
+            "relatedTitle": "Posts Relacionados"
+        },
+        "mobileToc": {
+            "title": "Tabla de Contenidos"
+        },
+        "share": {
+            "linkCopied": "¡Link copiado al portapapeles!",
+            "error": "No se pudo compartir o copiar el link."
+        },
+        "notFound": {
+            "title": "Post No Encontrado",
+            "message": "Lo sentimos, pero el post que buscas no existe, fue eliminado o la URL es incorrecta.",
+            "button": "Ir a todos los Blogs"
+        }
+    },
+    "homePage": {
+        "sections": {
+            "projects": "Proyectos <1>Destacados</1>",
+            "experience": "Experiencia laboral",
+            "skills": "Skills",
+            "aboutMe": "Sobre mí"
+        },
+        "hero": {
+            "badge": "Disponible para trabajar",
+            "greeting": "Hey, soy Camilo",
+            "description": "+5 años de experiencia. <1>en Desarrollo de Software e Ingeniería de Datos</1> en Boyacá, Colombia 🇨🇴. Especializado en el desarrollo de aplicaciones web únicas.",
+            "contactButton": "Contáctame",
+            "linkedinButton": "LinkedIn"
+        },
+        "projects": {
+            "subtitle": "Una selección curada de mis trabajos más impactantes, mostrando soluciones innovadoras y experiencias digitales excepcionales que transforman ideas en realidad.",
+            "codeButton": "Code",
+            "previewButton": "Preview",
+            "viewAllButton": "Ver Todos los Proyectos"
+        },
+        "experience": {
+            "learnMore": "Saber más",
+            "viewAllButton": "Ver Todas las Experiencias"
+        },
+        "skills": {
+            "subtitle": "Dominando las herramientas y metodologías que impulsan el desarrollo moderno",
+            "categories": {
+                "languages": "Languages",
+                "frameworks": "Frameworks & Libraries",
+                "tools": "Tools & Platforms",
+                "methodologies": "Methodologies"
+            },
+            "cta": {
+                "question": "¿Quieres ver mi formación y certificaciones?",
+                "action": "Explora mis Credenciales →"
+            },
+            "items": {
+                "javascript": {
+                    "name": "JavaScript",
+                    "description": "Lenguaje de programación versátil para desarrollo web y aplicaciones"
+                },
+                "typescript": {
+                    "name": "TypeScript",
+                    "description": "Superconjunto tipado de JavaScript para desarrollo más robusto"
+                },
+                "python": {
+                    "name": "Python",
+                    "description": "Lenguaje de programación para desarrollo backend y ciencia de datos"
+                },
+                "html5": {
+                    "name": "HTML5",
+                    "description": "Lenguaje de marcado estándar para estructurar contenido web"
+                },
+                "css3": {
+                    "name": "CSS3",
+                    "description": "Lenguaje de estilos para diseñar y dar formato a páginas web"
+                },
+                "sql": {
+                    "name": "SQL",
+                    "description": "Lenguaje de consulta estructurado para gestión de bases de datos"
+                },
+                "react": {
+                    "name": "React",
+                    "description": "Biblioteca de JavaScript para construir interfaces de usuario interactivas"
+                },
+                "nextjs": {
+                    "name": "Next.js",
+                    "description": "Framework de React para aplicaciones web de producción"
+                },
+                "nodejs": {
+                    "name": "Node.js",
+                    "description": "Entorno de ejecución JavaScript para el lado del servidor"
+                },
+                "expressjs": {
+                    "name": "Express.js",
+                    "description": "Framework web minimalista para Node.js"
+                },
+                "tailwindcss": {
+                    "name": "Tailwind CSS",
+                    "description": "Framework CSS utilitario para diseño rápido y personalizable"
+                },
+                "reactNative": {
+                    "name": "React Native",
+                    "description": "Framework para desarrollar aplicaciones móviles nativas"
+                },
+                "git": {
+                    "name": "Git",
+                    "description": "Sistema de control de versiones distribuido"
+                },
+                "docker": {
+                    "name": "Docker",
+                    "description": "Plataforma de containerización para aplicaciones"
+                },
+                "aws": {
+                    "name": "AWS",
+                    "description": "Servicios de computación en la nube de Amazon"
+                },
+                "vscode": {
+                    "name": "VS Code",
+                    "description": "Editor de código fuente avanzado y personalizable"
+                },
+                "mongodb": {
+                    "name": "MongoDB",
+                    "description": "Base de datos NoSQL orientada a documentos"
+                },
+                "postgresql": {
+                    "name": "PostgreSQL",
+                    "description": "Sistema de gestión de bases de datos relacionales avanzado"
+                },
+                "figma": {
+                    "name": "Figma",
+                    "description": "Herramienta de diseño colaborativo para interfaces de usuario"
+                },
+                "vercel": {
+                    "name": "Vercel",
+                    "description": "Plataforma de despliegue para aplicaciones frontend"
+                },
+                "agileScrum": {
+                    "name": "Agile/Scrum",
+                    "description": "Metodología ágil para gestión de proyectos de software"
+                },
+                "tdd": {
+                    "name": "TDD",
+                    "description": "Desarrollo dirigido por pruebas para código más confiable"
+                },
+                "cicd": {
+                    "name": "CI/CD",
+                    "description": "Integración y despliegue continuo para automatización"
+                },
+                "designThinking": {
+                    "name": "Design Thinking",
+                    "description": "Proceso centrado en el usuario para resolver problemas"
+                },
+                "cleanCode": {
+                    "name": "Clean Code",
+                    "description": "Principios para escribir código limpio y mantenible"
+                },
+                "restApis": {
+                    "name": "REST APIs",
+                    "description": "Arquitectura para servicios web escalables y eficientes"
+                }
+            }
+        },
+        "aboutMe": {
+            "p1": "¡Soy Camilo!. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <strong>liderando equipos de desarrollo en multinacionales</strong>.",
+            "p2": "Algunos de mis éxitos incluyen <strong>colaborar con Mozilla para el desarrollo de las primeras apps en su sistema FirefoxOS</strong>. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.",
+            "p3": "Como creador de contenido, <strong>cuento con el canal de habla hispana más visto del mundo en la categoría de <em>Software & Game Development</em> en Twitch</strong>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad."
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} <1>Nimutech</1>. Casi todos los derechos reservados",
+        "links": {
+            "about": "Sobre mí",
+            "contact": "Contacto"
+        }
+    }
+}

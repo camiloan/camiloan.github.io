@@ -1,0 +1,417 @@
+{
+	"navbar": {
+		"tabs": {
+			"about": "About me",
+			"experiences": "Experiences",
+			"projects": "Projects",
+			"education": "Education",
+			"blog": "Blog"
+		},
+		"logoAriaLabel": "Camilo's Logo",
+		"menuAriaLabel": "Menu"
+	},
+	"shared": {
+		"locale": {
+			"en": "English",
+			"es": "Español",
+			"fr": "Français",
+			"ja": "日本語",
+			"ar": "العربية",
+			"esCO": "Español (CO)",
+			"esAR": "Español (AR)"
+		},
+		"themeSelector": {
+			"ariaLabel": "Change Theme",
+			"menuTitle": "Theme"
+		},
+		"themes": {
+			"light": "Light",
+			"winter": "Winter",
+			"dark": "Dark",
+			"night": "Night",
+			"luxury": "Luxury",
+			"cyberpunk": "Cyberpunk",
+			"aqua": "Aqua",
+			"retro": "Retro",
+			"unsc": "UNSC",
+			"covenant": "Covenant",
+			"forerunner": "Forerunner",
+			"witcher3": "The Witcher 3",
+			"arasaka-corp": "Arasaka Corp",
+			"cyberpunk-official": "Cyberpunk Official"
+		}
+	},
+	"experience": {
+		"title": "Work Experience",
+		"subtitle": "My professional journey in web development, from my beginnings as a freelancer to my current role as a senior developer.",
+		"card": {
+			"current": "Current",
+			"viewDetails": "View full details →"
+		},
+		"modal": {
+			"context": "Context",
+			"responsibilities": "Responsibilities and Achievements",
+			"technologies": "Technologies",
+			"previous": "Previous",
+			"next": "Next"
+		},
+		"jobs": {
+			"job1": {
+				"title": "Senior Frontend Developer",
+				"briefDescription": "Leading the development of modern web applications with React and TypeScript, improving user experience and optimizing performance.",
+				"context": "As part of an 8-developer agile team, I work on a SaaS platform used by over 50,000 active users. I focus on creating intuitive user interfaces and maintaining high code quality standards.",
+				"responsibilities": [
+					"Developed and maintained 12 reusable React components that reduced development time by 40%",
+					"Led the migration from JavaScript to TypeScript, reducing production errors by 25%",
+					"Implemented performance optimizations that improved load times by 35%",
+					"Mentored 3 junior developers in frontend best practices",
+					"Collaborated closely with the UX/UI team to implement pixel-perfect designs",
+					"Established automated testing processes that increased code coverage to 85%"
+				]
+			},
+			"job2": {
+				"title": "Full Stack Developer",
+				"briefDescription": "Developed full-stack web applications from frontend to backend, working with modern technologies and agile methodologies.",
+				"context": "In a fast-growing startup, I participated in developing multiple MVP products for various clients, from e-commerce to educational platforms.",
+				"responsibilities": [
+					"Built 8 complete web applications from scratch using React and Node.js",
+					"Designed and implemented RESTful APIs supporting up to 10,000 requests per minute",
+					"Integrated payment systems (Stripe, PayPal) that processed over €500K in transactions",
+					"Optimized MongoDB databases, reducing query times by 50%",
+					"Implemented secure authentication and authorization with JWT and OAuth",
+					"Actively participated in Scrum ceremonies as a key team developer"
+				]
+			},
+			"job3": {
+				"title": "Junior Frontend Developer",
+				"briefDescription": "Began my professional career developing responsive websites and learning frontend development best practices.",
+				"context": "In a digital agency specializing in branding and web development for small and medium-sized businesses, I worked on diverse projects that allowed me to grow rapidly as a developer.",
+				"responsibilities": [
+					"Developed over 25 responsive websites using HTML, CSS, and vanilla JavaScript",
+					"Converted 15+ Photoshop and Sketch designs to pixel-perfect HTML/CSS code",
+					"Implemented CSS and JavaScript animations that enhanced user interaction",
+					"Optimized websites for SEO, achieving average improvements of 60% in PageSpeed Insights",
+					"Collaborated with designers to ensure the technical feasibility of proposals",
+					"Maintained and updated existing websites with new features"
+				]
+			},
+			"job4": {
+				"title": "Freelance Web Developer",
+				"briefDescription": "Developed independent web projects for small businesses, gaining experience in client management and full-cycle development.",
+				"context": "During my transition to professional web development, I worked as a freelancer to build my portfolio and gain practical experience with real clients.",
+				"responsibilities": [
+					"Completed 12 web projects for small businesses and entrepreneurs",
+					"Managed the entire development cycle from initial consultation to launch",
+					"Created mobile-optimized websites that increased client traffic by an average of 45%",
+					"Implemented basic e-commerce solutions using WooCommerce and Shopify",
+					"Provided ongoing technical support and maintenance to clients",
+					"Developed communication and project management skills by working directly with clients"
+				]
+			}
+		}
+	},
+	"projectsPage": {
+		"header": {
+			"title": "My Projects",
+			"subtitle": "Explore my portfolio of work across various fields and technologies."
+		},
+		"buttons": {
+			"loading": "Loading...",
+			"loadMore": "Load More Projects"
+		},
+		"filterBar": {
+			"title": "Filter",
+			"searchPlaceholder": "Search by title, description, technology...",
+			"areaLabel": "Area/Industry",
+			"roleLabel": "My Role",
+			"technologiesLabel": "Technologies",
+			"clearButton": "Clear Filters"
+		},
+		"emptyState": {
+			"title": "No projects found",
+			"message": "We couldn't find any projects that match your current filters. Try adjusting your filter criteria.",
+			"searchLabel": "Search",
+			"areaLabel": "Area",
+			"roleLabel": "Role",
+			"technologiesLabel": "Technologies",
+			"resetButton": "Reset Filters"
+		},
+		"projectCard": {
+			"viewDetails": "View Details"
+		},
+		"projectModal": {
+			"closeAriaLabel": "Close modal",
+			"descriptionTitle": "Project Description",
+			"viewLiveButton": "View Live",
+			"viewCodeButton": "View Code"
+		}
+	},
+	"educationPage": {
+		"header": {
+			"title": "Education & Certifications",
+			"subtitle": "A comprehensive overview of my professional qualifications, ongoing education, and formal academic background."
+		},
+		"sections": {
+			"certifications": "Professional Certifications",
+			"courses": "Courses & Continuous Learning",
+			"education": "Formal Education"
+		},
+		"recentCredentials": {
+			"title": "Recently Completed"
+		},
+		"sidebar": {
+			"toggleButton": "Sections",
+			"lastUpdated": "Last updated"
+		},
+		"skills": {
+			"title": "Technical Skills"
+		},
+		"certificationCard": {
+			"statusActive": "Active",
+			"statusExpired": "Expired",
+			"viewButton": "View Credential"
+		},
+		"courseCard": {
+			"viewButton": "View Certificate"
+		},
+		"educationCard": {
+			"achievements": "Achievements"
+		}
+	},
+	"blogPage": {
+		"header": {
+			"title": "Blog",
+			"subtitle": "Thoughts, stories and ideas about web development, design, and technology."
+		},
+		"sidebar": {
+			"tabs": {
+				"all": "All Posts",
+				"favorites": "My Favorites"
+			},
+			"search": {
+				"placeholder": "Search posts..."
+			},
+			"topics": {
+				"title": "Filter by Topics",
+				"clear": "Clear All"
+			},
+			"featured": {
+				"title": "Featured Posts"
+			}
+		},
+		"mainContent": {
+			"empty": {
+				"title": "No posts found",
+				"message": "Try adjusting your search or filter to find what you're looking for."
+			},
+			"pagination": {
+				"loadMore": "Load More",
+				"loading": "Loading..."
+			}
+		},
+		"card": {
+			"new": "New",
+			"readingTime": "{{minutes}} min read",
+			"views": "{{count}} views",
+			"ariaLabels": {
+				"addToFavorites": "Add to favorites",
+				"removeFromFavorites": "Remove from favorites"
+			}
+		}
+	},
+	"blogPostPage": {
+		"header": {
+			"readingTime": "{{minutes}} min read",
+			"views": "{{count}} views",
+			"writtenBy": "Written by",
+			"authorName": "Camilo Bolaños",
+			"favoriteButton": "Favorite",
+			"shareButton": "Share",
+			"ariaLabels": {
+				"addToFavorites": "Add to favorites",
+				"removeFromFavorites": "Remove from favorites",
+				"share": "Share post"
+			}
+		},
+		"content": {
+			"copyCode": "Copy",
+			"copied": "Copied!"
+		},
+		"navigation": {
+			"previous": "Previous Post",
+			"next": "Next Post"
+		},
+		"sidebar": {
+			"tocTitle": "Table of Contents",
+			"relatedTitle": "Related Posts"
+		},
+		"mobileToc": {
+			"title": "Table of Contents"
+		},
+		"share": {
+			"linkCopied": "Link copied to clipboard!",
+			"error": "Could not share or copy the link."
+		},
+		"notFound": {
+			"title": "Post Not Found",
+			"message": "Sorry, but the post you are looking for does not exist, has been removed, or the URL is incorrect.",
+			"button": "Go to All Blogs"
+		}
+	},
+	"homePage": {
+		"sections": {
+			"projects": "Featured <1>Projects</1>",
+			"experience": "Work Experience",
+			"skills": "Skills",
+			"aboutMe": "About Me"
+		},
+		"hero": {
+			"badge": "Available for work",
+			"greeting": "Hey, I'm Camilo",
+			"description": "+5 years of experience. <1>in Software Development and Data Engineering</1> in Boyacá, Colombia 🇨🇴. Specializing in developing unique web applications.",
+			"contactButton": "Contact Me",
+			"linkedinButton": "LinkedIn"
+		},
+		"projects": {
+			"subtitle": "A curated selection of my most impactful works, showcasing innovative solutions and exceptional digital experiences that turn ideas into reality.",
+			"codeButton": "Code",
+			"previewButton": "Preview",
+			"viewAllButton": "View All Projects"
+		},
+		"experience": {
+			"learnMore": "Learn more",
+			"viewAllButton": "View All Experiences"
+		},
+		"skills": {
+			"subtitle": "Mastering the tools and methodologies that drive modern development",
+			"categories": {
+				"languages": "Languages",
+				"frameworks": "Frameworks & Libraries",
+				"tools": "Tools & Platforms",
+				"methodologies": "Methodologies"
+			},
+			"cta": {
+				"question": "Want to see my education and certifications?",
+				"action": "Explore my Credentials →"
+			},
+			"items": {
+				"javascript": {
+					"name": "JavaScript",
+					"description": "Versatile programming language for web and application development"
+				},
+				"typescript": {
+					"name": "TypeScript",
+					"description": "Typed superset of JavaScript for more robust development"
+				},
+				"python": {
+					"name": "Python",
+					"description": "Programming language for backend development and data science"
+				},
+				"html5": {
+					"name": "HTML5",
+					"description": "Standard markup language for structuring web content"
+				},
+				"css3": {
+					"name": "CSS3",
+					"description": "Style sheet language for designing and formatting web pages"
+				},
+				"sql": {
+					"name": "SQL",
+					"description": "Structured query language for database management"
+				},
+				"react": {
+					"name": "React",
+					"description": "JavaScript library for building interactive user interfaces"
+				},
+				"nextjs": {
+					"name": "Next.js",
+					"description": "React framework for production web applications"
+				},
+				"nodejs": {
+					"name": "Node.js",
+					"description": "JavaScript runtime environment for the server side"
+				},
+				"expressjs": {
+					"name": "Express.js",
+					"description": "Minimalist web framework for Node.js"
+				},
+				"tailwindcss": {
+					"name": "Tailwind CSS",
+					"description": "Utility-first CSS framework for rapid and custom design"
+				},
+				"reactNative": {
+					"name": "React Native",
+					"description": "Framework for developing native mobile applications"
+				},
+				"git": {
+					"name": "Git",
+					"description": "Distributed version control system"
+				},
+				"docker": {
+					"name": "Docker",
+					"description": "Application containerization platform"
+				},
+				"aws": {
+					"name": "AWS",
+					"description": "Amazon's cloud computing services"
+				},
+				"vscode": {
+					"name": "VS Code",
+					"description": "Advanced and customizable source code editor"
+				},
+				"mongodb": {
+					"name": "MongoDB",
+					"description": "Document-oriented NoSQL database"
+				},
+				"postgresql": {
+					"name": "PostgreSQL",
+					"description": "Advanced relational database management system"
+				},
+				"figma": {
+					"name": "Figma",
+					"description": "Collaborative design tool for user interfaces"
+				},
+				"vercel": {
+					"name": "Vercel",
+					"description": "Deployment platform for frontend applications"
+				},
+				"agileScrum": {
+					"name": "Agile/Scrum",
+					"description": "Agile methodology for software project management"
+				},
+				"tdd": {
+					"name": "TDD",
+					"description": "Test-driven development for more reliable code"
+				},
+				"cicd": {
+					"name": "CI/CD",
+					"description": "Continuous integration and deployment for automation"
+				},
+				"designThinking": {
+					"name": "Design Thinking",
+					"description": "User-centered process for problem-solving"
+				},
+				"cleanCode": {
+					"name": "Clean Code",
+					"description": "Principles for writing clean and maintainable code"
+				},
+				"restApis": {
+					"name": "REST APIs",
+					"description": "Architecture for scalable and efficient web services"
+				}
+			}
+		},
+		"aboutMe": {
+			"p1": "I'm Camilo! I started programming with an Amstrad when I was 10. Currently, I am <strong>leading development teams in multinational corporations</strong>.",
+			"p2": "Some of my successes include <strong>collaborating with Mozilla on the development of the first apps for their FirefoxOS system</strong>. Although it's gone today, it was a great advancement in the world of web development.",
+			"p3": "As a content creator, <strong>I have the most-watched Spanish-speaking channel in the world in the <em>Software & Game Development</em> category on Twitch</strong>. My goal is to improve the employability of the Hispanic community and their access to quality content."
+		}
+	},
+	"footer": {
+		"copyright": "© {{year}} <1>Nimutech</1>. Almost all rights reserved",
+		"links": {
+			"about": "About Me",
+			"contact": "Contact"
+		}
+	}
+}
